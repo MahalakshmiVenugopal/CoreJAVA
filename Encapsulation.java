@@ -12,6 +12,7 @@ public class Encapsulation {
 		//bo.page_no = 100;
 		//System.out.println(bo.page_no);
 		
+		//Controlled Access
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the page number");
 		bo.setData(sc.nextInt());
